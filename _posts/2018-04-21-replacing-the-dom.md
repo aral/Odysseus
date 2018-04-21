@@ -35,7 +35,7 @@ When replacing JavaScript it's important not only to consider what we want to ke
 ## Preventing user-hostile modal boxes
 User hostile modal displays are really more the fault of CSS than they are of JavaScript, though JS does make them more annoying. So I popose that we deprecate the [`position`](https://developer.mozilla.org/en-US/docs/Web/CSS/position) property in favour of flex and grid layouts, as well as a minor extension to Ankarström's suggested Ajax interface.
 
-That extension would be two new HTML attributes (`modal=`selector & `transient=`selector) as well as one CSS property (`transient-side:` atop|above|below|left|right|aside). If you're familiar with his proposal, mine should be quite natural to understand.
+That extension would be two new HTML attributes (`modal=`selector & `transient=`selector) as well as one CSS property (`transient-side:` atop, above, below, left, right, or aside). If you're familiar with his proposal, mine should be quite natural to understand.
 
 ## Interactive page snippets
 The [myriad](http://todomvc.com/) of JavaScript frameworks suggests a partial solution to this: you manipulate your webpages the same way you generate them. By using a template. And just combining it with a simple URI routing syntax (that I'll describe later) would make it very useful, as it could intercept HTTP requests in order to take computational load off the server whereever possible.

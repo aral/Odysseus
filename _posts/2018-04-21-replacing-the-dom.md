@@ -3,7 +3,7 @@ layout: post
 title: Replacing The DOM — Odysseus Development Blog
 posttitle: Let's Replacing JavaScript With Something Better — For Page Manipulation
 header: 21st April 2018 — Adrian Cochrane
-date: -- 2018-04-20 23:15:30 1200
+date: 2018-04-21 21:34:53 1200
 categories: misc post-js
 ---
 

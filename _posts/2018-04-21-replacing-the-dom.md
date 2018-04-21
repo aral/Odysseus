@@ -84,7 +84,7 @@ And as for defining these controls, it'd be very easy to write it as an expressi
 
 Finding a reasonably simple example to demonstrate this proposed language's syntax is difficult, because it's intended to replace the relatively complex JavaScripts. However for some sort of Hello World, I'll demonstrate a click counter:
 
-    {button}["Clicked ", click "button" @\ _ + 1, " times"]
+    <script type="text/dhtml">{button}["Clicked ", click "button" @\ -> _ + 1, " times"]</script>
 
 Yay! It's a one-liner!
 
@@ -92,3 +92,16 @@ Yay! It's a one-liner!
 This new language would give webdevs a syntax that removes the burden of various performance considerations. Right out-of-the gate they wouldn't need `requestAnimationFrame`, `setTimeout(cb, 0)`, `new Worker(script)`, or necessarily care which order the events came in; as a simple JIT can easily handle all those optimizations for them. And nor would syntax-highlighting online code editors like CodeMirror need to worry about the performance impact of reformatting the entire source code for every edit - the browser would just handle it itself. And perhaps it'll even read nicer.
 
 For browsers it gives them more flexibility in optimizing away the computation for these gestures and templating, as well as for handling any security vulnerability. All whether or not we allow this language to be turing complete. And if we do allow Turing completeness, the language would allow browsers to block any background computation and give the user the option to stop anything that's taking too long. This is all because due to it's [Functional Programming paradigm](https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming) the order of execution would be fully in the control of the browser and not the script.
+
+## Conclusion
+In extending John Ankarström's proposals to create a future beyond JavaScript, I propose that:
+
+* Graying out the *entire* browser window except some highlighted elements may be the most effective visual effect for confirming requests without causing any permission blindness.
+* His Intercooler-inspired interface for dynamic HTTP requests should be extended to be the *only* way to create visual overlays, such that they can't get overly annoyting.
+* And a new language should be added for declaring interactive sections of the page.
+
+This new language would be in part a templating language with it's own HTML syntax (such that < & > are available for use in expressions and the element's body can be a sequence of expressions), and in part a reactive functional language that understands CSS selectors. That way it'd be strong at both the inputs and outputs it'd commonly have to deal with.
+
+It'd be trivial to make such a language Turing complete or not, and even if we did it'd be easy to ensure all processing is relevent to whatever gets displayed. And perhaps it'd even be possible to head off most software/hardware vulnerabilities with the browser's control over the order of execution, though maybe that's wishful thinking.
+
+But in the end, I don't really care whether these suggestions are taken up or not. What I care about is contributing to this important conversation.

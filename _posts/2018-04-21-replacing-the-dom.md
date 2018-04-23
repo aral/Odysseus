@@ -53,7 +53,7 @@ Essentially RFP involves treating events as a datastructure rather than as contr
 
 If we have automatic conversions between streams and non-varying values we'd almost automatically have brought *mergeLatest*, *map*, and *just* into the language's syntax in a very declarative manor, resulting in a language which just looks like a templating language with access to the latest input events. Add in a special name (say, `_`) for the last computed value from an expression to naturally incorporate the *scan* operation, and if we say `undefined` (which'll arise anyways simply by a desire to not to bother visitors with developer errors) values are excluded from streams we'd have incorporated `filter` as well. Which would just leave us with having to define an operator for *merge*.
 
-## Data Model
+### Data Model
 As for how data is represented in those streams, we'd need to consider what data will most frequently be operated upon in this language. And the answer there is that the input would come in as various numbers for different aspects of the event (as per JavaScript), and the output would be a hierarchy combining strings and XML-like nodes. Then for when we're using templates to intercept requests, we'd want to trivially access it's path components and it's query parameters.
 
 This suggests to me that the data model should consist of "structures" which consists of a type, named fields, and a list of children; where most of the leaves of this hierarchy would be numbers. There would be a literal syntax for strings but really that'd be syntactic sugar for a structure containing a list of numbers. And ofcourse variables and fields could be marked as containing time-varying values which'll cause the coercions I described previously.

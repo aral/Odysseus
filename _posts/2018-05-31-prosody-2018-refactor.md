@@ -18,7 +18,7 @@ And while that code is still very useful, I replaced most of it's uses with a li
 
 And not only is this computationally more efficient, but it slightly reduces the number of method calls Odysseus makes that CPUs [struggle to optimize](https://webkit.org/blog/189/announcing-squirrelfish/)<sup title="Though if I really wanted to make dent that way, I'd have reimplemented the interpretor.">1</sup>, and vitally it can be easier for other code to construct.
 
-## Goodbye `[GLib.Bytes](https://valadoc.org/glib-2.0/GLib.Bytes.html)`, Hello `Slice`
+## Goodbye [`GLib.Bytes`](https://valadoc.org/glib-2.0/GLib.Bytes.html), Hello `Slice`
 This is the bigger change, and the one which made all the difference in terms of performance. To be honest I can't really tell that `Data.Slice` actually made a difference in terms of performance, I just know it theoretically would have. It is also the trickiest to explain.
 
 But in a nutshell I replaced every use of [`GLib.Bytes`](https://gitlab.gnome.org/GNOME/glib/blob/master/glib/gbytes.c) inside Prosody and the broader Odysseus codebase with a newly written wrapper I called `Slice`, which worked better with Vala's [syntactic sugar](https://www.syntacticsugar.org/) and [LibGee](https://valadoc.org/gee-0.8/Gee.html) collections library.

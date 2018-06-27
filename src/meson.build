@@ -71,6 +71,7 @@ executable('com.github.alcinnz.odysseus',
     source_files,
 
     c_args: c_args,
+    vala_args: ['../ext/fts5.vapi', '--vapidir=../ext/'],
     link_args: ['-lm'],
     dependencies: [
         dependency('gtk+-3.0'),
@@ -84,5 +85,6 @@ executable('com.github.alcinnz.odysseus',
         dependency('appstream'),
         posix_dep
     ],
+    include_directories: include_directories('../ext/'),
     install: true
 )

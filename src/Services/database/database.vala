@@ -47,6 +47,7 @@ namespace Odysseus.Database {
         // Upgrade the database from whatever version it was
         var errmsg = "";
         int version = 0;
+        Sqlite_FTS5.init(main_db, out errmsg);
         err = main_db.exec("PRAGMA user_version;", (n, values, columns) => {
             version = int.parse(values[0]);
             var data = Templating.Data.Let.build(

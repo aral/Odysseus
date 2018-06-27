@@ -72,7 +72,7 @@ executable('com.github.alcinnz.odysseus',
 
     c_args: c_args,
     vala_args: ['../ext/fts5.vapi', '--vapidir=../ext/'],
-    link_args: ['-lm'],
+    link_args: ['-lm', '-L' + meson.build_root() + '/ext/libfts5.so'],
     dependencies: [
         dependency('gtk+-3.0'),
         dependency('granite'),

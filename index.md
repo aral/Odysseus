@@ -19,6 +19,8 @@ aids that gently and unobtrusively guide you wherever you want to go online.
 In doing so Odysseus aims to help you focus on the webpages that matter to you,
 and to support the open decentralized web over the centralized services of today. 
 
+[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/com.github.alcinnz.odysseus.desktop) or [download a stable release](https://github.com/alcinnz/Odysseus/releases)
+
 ## High-level features:
 * Tabbed web browsing
 * Find-in-page

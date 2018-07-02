@@ -1,8 +1,20 @@
 ---
 layout: guide
-title: Tabbed web browsing
+title: Web browsing
 header: Guide
 ---
+
+At the top of every Odysseus window is the "toolbar". These contain controls to manipulate the page your currently viewing, and to navigate to other pages. They also contain the window controls standard to your desktop, which will be otherwise ignored in this guide.
+
+At the leftmost side you'll see 2 buttons labelled ![&larr;](icon:16/go-previous-symbolic) & ![&rarr;](icon:16/go-next-symbolic). These take you to the page you've visited immediately before or after this page, unless it was via these buttons. Right- or hold-click these buttons for a menu of all pages visited before or after this one.
+
+Next to those you'll see either a ![reload button](icon:16/view-refresh-symbolic) or ![X](icon:16/process-stop-symbolic) depending on whether the page is currently loading. Click the !{reload button](icon:16/view-refresh-symbolic) to fetch and display an updated page from the server, and click ![X](icon:16/process-stop-symbolic) to stop fetching the current page. In either case hold- or right-click for an option to reload the page without reusing any previously fetched resources.
+
+On the right you'll see ![menu button](icon:16/open-menu) which provides various other options. Some of these will have their own guides, and others you should be familiar with from other document-oriented applications.
+
+In the center you'll see the "addressbar". (TODO give the addressbar it's own guide)
+
+### Tabbed web browsing
 
 Between Odysseus's toolbar and the webpage you're currently viewing, there is a "tabbar". This can be used to keep many webpages open within the same window.
 

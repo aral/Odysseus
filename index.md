@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Odysseus - the browser for elementary OS and the indie web
+title: Odysseus - the browser for elementary OS and the open web
 header: About/Overview
 ---
 

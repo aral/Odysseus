@@ -12,7 +12,7 @@ Clicking the addressbar selects all it's text for easy copy-and-paste, and anyth
 
 1. A web address. If you don't specify how the page should be fetched, Odysseus defaults to HTTPS.
 2. Autocompletes to a page you've visited previously.
-3. A [DuckDuckGo](https://ddg.gg/) websearch.
+3. Search the web using [DuckDuckGo](https://ddg.gg/).
 4. Autocompletions provided by DuckDuckGo are suggested, but only if what you're typing is obviously a search (i.e. it has a space in it).
 
 You can select any of these options from the dropdown that appears as you type.

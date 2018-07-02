@@ -14,4 +14,4 @@ Click ![the gear](icon:16/open-menu-symbolic) for more options. The first set of
 
 If "Cyclic search" is enabled when you reach the last occurance on the page the search will restart from the beginning, this is the default behaviour. If "Match word start" is enabled each occurance must be preceded by whitespace. And if "Match CamelCase" is enabled it also matches occurances on the page which alternate capitalization instead of adding whitespace (this is mostly only useful for programmers).
 
-Press <kbd>ctrl</kdb><kbd>F</kdb> to focus this text entry again. And press <kbd>esc</kbd> or interact with the page to close the find toolbar.
+Press <kbd>ctrl</kbd><kbd>F</kbd> to focus this text entry again. And press <kbd>esc</kbd> or interact with the page to close the find toolbar.

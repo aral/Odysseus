@@ -4,7 +4,7 @@ header: Guide
 title: Odysseus browser history
 ---
 
-All pages you've visited are accessible at [odysseus:history](odysseus:history), which is linked to from the newtab page and the gear menu. That page lists your browser history from the time you've updated to version 1.1.0 in reverse chronological order, whilst highlighting changes in hours, days, months, and years to make it easier to skim.
+All pages you've visited are accessible at [odysseus:history](odysseus:history), which is linked to from the newtab page and the gear menu. It can also be accessed using <kbd>ctrl</kbd><kbd>H</kbd>. That page lists your browser history from the time you've updated to version 1.1.0 in reverse chronological order, whilst highlighting changes in hours, days, months, and years to make it easier to skim.
 
 Alternatively you can attempt to recall a web address you've visited before and Odysseus will suggest what it might have been.
 

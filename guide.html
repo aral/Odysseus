@@ -1,0 +1,27 @@
+---
+layout: page
+title: Odysseus User Guide
+header: Guide
+---
+
+<p>Need clarification on something? Then check out these user guides, or [ask your question](https://riot.im/app/#/room/#odysseus-web:matrix.org).</p>
+
+<style>
+  section {
+    width: 299px;
+    height: 299px;
+    border: thin solid lightgray;
+    padding: 10px;
+    margin: 5px;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+  }
+</style>
+
+{% for guide in site.guides %}
+  <section>
+    <h1><a href='{{ post.url | relative_url }}'>{{ post.title }}</a></h3>
+    {{ guide.excerpt }}
+  </section>
+{% endfor %}

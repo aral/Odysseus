@@ -1,25 +1,48 @@
 ---
 layout: page
-title: Odysseus - elementary OS's very own web browser
+title: Odysseus - the browser for elementary OS and the indie web
 header: About/Overview
 ---
 
-# elementary OS's very own web browser
+# Odysseus web browser
+
+A simple and performant yet powerful [elementary OS](https://elementary.io/)-[style](https://elementary.io/docs/human-interface-guidelines) window onto the open decentralized web.
 
 <img src="screenshot.png" alt='Screenshot of Odysseus showcasing the "headerbar", tabbar, find-in-page, and downloads features.' />
 
-Surf the Web with the controls you're already familiar with from apps like Files and Scratch. With everything where you already expect them it is seamless to switch between Odysseus and other apps. 
+Odysseus is already and will continue to be a convenient, privacy-respecting,
+[ethically designed](https://2017.ind.ie/ethical-design/), and opensource
+(under the GPLv3+ license) web browser that should run great on any free desktop.
+However work is ongoing to make Odysseus more convenient with handy navigation
+aids that gently and unobtrusively guide you wherever you want to go online.
 
-## Features
+In doing so Odysseus aims to help you focus on the webpages that matter to you,
+and to support the open decentralized web over the centralized services of today. 
 
-* Can present any webpage Apple's Safari or GNOME's Epiphany can handle
-* Full elementary-style tabbar complete with pinning, duplicating, restoring, moving tabs, and more.
-* Quickly jump to any page in your tab history
-* Videos, PDFs, and more open and stream into their respective apps
-* Keeps your downloads folder organized by date
-* Quickly and flexibly find text in web pages
-* DuckDuckGo integration with search autocompletion
-* Takes security seriously by defaulting to HTTPS and not uploading the web addresses you type anywhere. 
-* Shows combined download progress in the dock for a quick glance.
-* Quick to start as it holds off on loading pages from your previous browsing session.
-* And more to come…
+## High-level features:
+* Tabbed web browsing
+* Find-in-page
+* Downloads
+* Opens non-webpage links in 3rd party apps, or suggests ones to install
+* DuckDuckGo integration
+* Browser history
+* Topsites with initial hand-curated recommendations
+* (in-progress) webfeed & feedreader integration
+* (planned) reader view
+* (planned) bookmarks
+* (planned) configurable integration of search engines (not just DuckDuckGo)
+* (planned) lightweight browser extensions
+These features are completed to a high degree of polish.
+
+## Standards support:
+* HTML5, CSS3, JavaScript ES6, SVG, MathML
+* HTTP(S), data, & file URIs.
+* Web Open Font Format
+* Just about any image, video, or audio format
+* Freedesktop.org MIME Info, MIME Apps, Desktop Entries, Icon Theme, & Icon Naming specs
+* X11, Wayland
+* AppStream
+* (in-progress) RSS, Atom
+* (planned) SKOS, Dublin Core
+* (planned) OpenSearch + RSS/Atom
+* (planned) payment links

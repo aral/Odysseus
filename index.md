@@ -34,6 +34,7 @@ and to support the open decentralized web over the centralized services of today
 * (planned) bookmarks
 * (planned) configurable integration of search engines (not just DuckDuckGo)
 * (planned) lightweight browser extensions
+
 These features are completed to a high degree of polish.
 
 ## Standards support:

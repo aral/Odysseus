@@ -12,7 +12,7 @@ Next to those you'll see either a ![reload button](icon:16/view-refresh-symbolic
 
 On the right you'll see ![menu button](icon:16/open-menu) which provides various other options. Some of these will have their own guides, and others you should be familiar with from other document-oriented applications.
 
-In the center you'll see the "addressbar". (TODO give the addressbar it's own guide)
+In the center you'll see the "[addressbar](addressbar.html)".
 
 ### Tabbed web browsing
 

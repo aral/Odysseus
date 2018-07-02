@@ -4,7 +4,8 @@ title: Odysseus User Guide
 header: Guide
 ---
 
-<p>Need clarification on something? Then check out these user guides, or [ask your question](https://riot.im/app/#/room/#odysseus-web:matrix.org).</p>
+<p>Need clarification on something? Then check out these user guides, or
+  <a href="https://riot.im/app/#/room/#odysseus-web:matrix.org" title="Join the Matrix chatroom.">ask your question</a>.</p>
 
 <style>
   section {
@@ -21,7 +22,7 @@ header: Guide
 
 {% for guide in site.guides %}
   <section>
-    <h1><a href='{{ post.url | relative_url }}'>{{ post.title }}</a></h3>
+    <h1><a href='{{ guide.url | relative_url }}'>{{ guide.title }}</a></h3>
     {{ guide.excerpt }}
   </section>
 {% endfor %}

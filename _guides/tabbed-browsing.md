@@ -1,6 +1,7 @@
 ---
 layout: guide
 title: Tabbed web browsing
+header: Guide
 ---
 
 Between Odysseus's toolbar and the webpage you're currently viewing, there is a "tabbar". This can be used to keep many webpages open within the same window.

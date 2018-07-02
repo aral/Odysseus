@@ -1,0 +1,11 @@
+baseurl: "/Odysseus-support"
+
+title: Odysseus web browser
+description: > # this means to ignore newlines until exclude:
+  The web browser for elementary OS and the open decentralized web.
+  
+exclude: [README.md]
+
+collections:
+    guides:
+        output: true

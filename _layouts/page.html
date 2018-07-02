@@ -135,7 +135,7 @@ p, li, dt, dd {
   <main>
     {{ content }}
 
-    {% if page.slug %}
+    {% if page.slug and page.layout != "guide" %}
       <hr />
       <h2><a href="https://github.com/alcinnz/Odysseus-support/wiki/{{page.slug}}">Talk Page</a> for <q>{{ page.title }}</q></h2>
     {% endif %}
